@@ -1,0 +1,87 @@
+body {
+	background: black;
+}
+
+#logo {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	left: 610px;
+	top: 180px;
+	visibility: hidden;
+}
+
+#one {
+	background-color: #E50914;
+	height: 200px;
+	width: 45px;
+	display: inline-block;
+	margin-right: 10px;
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 100px;
+	left: 8px;
+	animation: anime-one 1s 1;
+	left: 8px;
+	z-index:0
+}
+
+#two {
+	background-color: #E50914;
+	height: 200px;
+	width: 45px;
+	display: inline-block;
+	margin-right: 10px;
+	transform: rotate(-26deg);
+	position: absolute;
+	top: 0px;
+	left: 54px;
+	animation: anime-two 0.8s 1s 1;
+	z-index:1;
+}
+
+#three {
+	background-color: #E50914;
+	height: 200px;
+	width: 45px;
+	display: inline-block;
+	margin-right: 10px;
+	position: absolute;
+	bottom: 100px;
+	left: 100px;
+	animation: anime-three 1s 1.8s 1;
+	z-index:0;
+}
+
+@keyframes anime-one {
+	from { 
+	height:0px;
+	visibility:visible;	}
+
+	to {
+	height: 200px;
+	}
+}
+
+@keyframes anime-two {
+	from { 
+	height:0px;
+	left: 48px;
+	visibility:visible;	
+	}
+
+	to {
+	height: 200px;
+	}
+}
+
+@keyframes anime-three {
+	from { 
+	height:0px;
+	visibility:visible;	
+	}
+
+	to {
+	height: 200px;
+	}
+}
