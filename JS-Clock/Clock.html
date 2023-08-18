@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Clock</title>
+
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #24242A;
+	min-height: 90vh;
+}
+
+#clockContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 380px;
+	width: 380px;
+	background-image: url("Clock.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+#hour, #minute, #second {
+	position: absolute;
+	transform-origin: bottom;
+}
+
+#hour {
+	height: 65px;
+	width: 4px;
+	background-color: #F89494;
+	border-radius: 20px;
+	z-index: 0;
+	top: 220px;
+	margin-right: 7px;
+}
+
+#minute {
+	height: 90px;
+	width: 4px;
+	background-color: #74D6BA;
+	border-radius: 20px;
+	z-index: 1;
+	top: 195px;
+	margin-right: 7px;
+}
+
+#second {
+	height: 105px;
+	width: 4px;
+	background-color: #969EF1;
+	border-radius: 20px;
+	z-index: 2;
+	top: 180px;
+	margin-right: 7px;
+}
+</style>
+</head>
+
+<body>
+	<div id="clockContainer">
+		<div id="hour"></div>
+		<div id="minute"></div>
+		<div id="second"></div>
+	</div>
+
+	<script>
+    setInterval(() => {
+    const date = new Date(); 
+    hr = date.getHours();
+    min = date.getMinutes();
+    sec = date.getSeconds();
+    hr_rotation = 30 * hr + min / 2;
+    min_rotation = 6 * min;
+    sec_rotation = 6 * sec;
+    
+    // For dynamic value change, $() is used and style value is written within ``
+    
+    document.getElementById("hour").style.transform = `rotate(${hr_rotation}deg)`;
+    document.getElementById("minute").style.transform = `rotate(${min_rotation}deg)`;
+    document.getElementById("second").style.transform = `rotate(${sec_rotation}deg)`;
+    }, 1000);
+</script>
+</body>
+
+</html>
+
