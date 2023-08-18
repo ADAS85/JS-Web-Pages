@@ -1,0 +1,226 @@
+.header {
+	margin-bottom: 5px;
+}
+
+.pg-logo {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.navbar {
+	margin-top: 15px;
+	float: right;
+	position: relative;
+	float: right;
+	position: relative;
+	right: 190px;
+}
+
+.nav-list {
+	list-style: none;
+	font-size: 25px;
+	font-family: Optima, Perpetua, Times New Roman;
+	letter-spacing: 0.6px;
+}
+
+.nav-item {
+	display: inline-block;
+	margin-right: 120px;
+}
+
+.link-ref {
+	text-decoration: none;
+	color: #4A4B4A;
+	transition: color 0.3s;
+}
+
+.link-ref:hover {
+	color: #C2BFBE;
+}
+
+.menu-header {
+	font-family: Optima, Perpetua, Times New Roman;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #4A4B4A;
+	text-align: center;
+	margin: none;
+}
+
+.menu-header-line {
+	height: 1.5px;
+	width: 60%;
+	background-color: #4A4B4A;
+	margin-bottom: 80px;
+	left: 280px;
+	position: relative;
+	top: -20px;
+	animation-name: line-anime;
+	animation-iteration-count: 1;
+	animation-duration: 1.6s;
+	animation-direction: forward;
+	position: relative;
+}
+
+@keyframes line-anime{
+	from{
+	width:0%;}
+	
+	to{
+	width:60%;}
+}
+
+.gift-I {
+	background-color: #34A788;
+	border-radius: 15px;
+	padding: 15px;
+	width: 70%;
+	margin-bottom: 60px;
+	animation-name: gift-sway;
+	animation-duration: 0.6s;
+	animation-delay: 0.5s;
+	animation-direction: forward;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-ease-out;
+}
+
+.gift-II {
+	background-color: #3E75BF;
+	border-radius: 15px;
+	padding: 15px;
+	width: 70%;
+	margin-bottom: 60px;
+	
+	animation-name: gift-sway;
+	animation-duration: 0.6s;
+	animation-delay: 0.5s;
+	animation-direction: forward;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-ease-out;
+}
+
+.gift-III {
+	background-color: #9239B6;
+	border-radius: 15px;
+	padding: 15px;
+	width: 70%;
+	animation-name: gift-sway;
+	animation-duration: 0.6s;
+	animation-delay: 0.5s;
+	animation-direction: forward;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-ease-out;
+}
+
+.gift-IV {
+	background-color: #B6397F;
+	border-radius: 15px;
+	padding: 15px;
+	width: 70%;
+	animation-name: gift-sway;
+	animation-duration: 0.6s;
+	animation-delay: 0.5s;
+	animation-direction: forward;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-ease-out;
+}
+
+.gift-items {
+	position: relative;
+	left: 304px;
+	margin-bottom: 100px;
+}
+
+@keyframes gift-sway{
+	0%{
+	transform: rotate(0deg);
+	}
+	
+	40%{
+	transform: rotate(6deg);
+	}
+	
+	70%{
+	transform: rotate(-6deg);
+	}
+	
+	100%{
+	transform: rotate(0deg);
+	}
+}
+
+.gift-I h2, .gift-II h2, .gift-III h2, .gift-IV h2 {
+	color: whitesmoke;
+	font-family: Optima, Perpetua, Times New Roman;
+	letter-spacing: 0.2px;
+}
+
+.gift-I h3, .gift-II h3, .gift-III h3, .gift-IV h3 {
+	color: whitesmoke;
+	font-family: Optima, Perpetua, Times New Roman;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 0.2px;
+	font-style: oblique;
+}
+
+.gift-I h4, .gift-II h4, .gift-III h4, .gift-IV h4 {
+	color: whitesmoke;
+	font-family: Optima, Perpetua, Times New Roman;
+	font-weight: lighter;
+	font-size: 17px;
+	letter-spacing: 0.2px;
+}
+
+.gift-I:hover, .gift-II:hover, .gift-III:hover, .gift-IV:hover{
+	box-shadow: 0px 0px 8px #595B59;
+}
+
+.page-footer {
+	margin: 150px 0px 0px 0px;
+	height: 140px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+.page-footer p {
+	text-align: center;
+	color: whitesmoke;
+	font-family: Optima, Perpetua, Times New Roman;
+	font-weight: lighter;
+	font-size: 16px;
+	margin-top: 35px;
+}
+
+.footer-head {
+	position: relative;
+	top: 10px;
+}
+
+.footer-head h2 {
+	font-family: Optima, Perpetua, Times New Roman;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.footer-div {
+	color: whitesmoke;
+	text-align: center;
+	margin-left: 42px;
+	margin-top: 32px;
+}
+
+.footer-div a {
+	font-size: 28px;
+	color: #CCCCCC;
+	text-decoration: none;
+	margin-right: 40px;
+	transition: 0.1s;
+}
+
+.fa:hover {
+	transform: translateY(-6px);
+	color: #F5F5F5;
+}

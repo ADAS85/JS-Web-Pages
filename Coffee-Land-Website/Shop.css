@@ -1,0 +1,155 @@
+.header {
+	margin-bottom: 60px;
+}
+
+.pg-logo {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.navbar {
+	margin-top: 15px;
+	float: right;
+	position: relative;
+	float: right;
+	position: relative;
+	right: 190px;
+}
+
+.nav-list {
+	list-style: none;
+	font-size: 25px;
+	font-family: Optima, Perpetua, Times New Roman;
+	letter-spacing: 0.6px;
+}
+
+.nav-item {
+	display: inline-block;
+	margin-right: 120px;
+}
+
+.link-ref {
+	text-decoration: none;
+	color: #4A4B4A;
+	transition: color 0.3s;
+}
+
+.link-ref:hover {
+	color: #C2BFBE;
+}
+
+.item-block {
+	padding: 15px 8px 5px 15px;
+	border: 0.8px solid #818381;
+	margin: 20px 120px 50px 20px;
+	border-radius: 15px;
+	transition: transform .3s;
+	overflow-x: hidden;
+}
+
+.item-block h3, .item-block h4 {
+	font-family: Optima, Perpetua, Times New Roman;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 0.3px;
+}
+
+.item-block h4 {
+	font-style: oblique;
+	line-height: 20px;
+}
+
+.item-block:hover {
+	transform: translateY(-15px);
+	box-shadow: 0px 0px 5px #595B59;
+}
+
+.item-block img {
+	border-radius: 15px;
+}
+
+.menu-items {
+	position: relative;
+	left: 150px;
+}
+
+.menu-header {
+	font-family: Optima, Perpetua, Times New Roman;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #4A4B4A;
+	text-align: center;
+	margin: none;
+}
+
+.menu-header-line {
+	height: 1.5px;
+	width: 60%;
+	background-color: #4A4B4A;
+	margin-bottom: 80px;
+	left: 280px;
+	position: relative;
+	top: -20px;
+	animation-name: line-anime;
+	animation-iteration-count: 1;
+	animation-duration: 1.6s;
+	animation-direction: forward;
+	position: relative;
+}
+
+@keyframes line-anime {
+	from { 
+	width:0%;}
+
+	to {
+	width: 60%;}
+}
+
+.page-footer {
+	margin: 100px 0px 0px 0px;
+	height: 140px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+.page-footer p {
+	text-align: center;
+	color: whitesmoke;
+	font-family: Optima, Perpetua, Times New Roman;
+	font-weight: lighter;
+	font-size: 16px;
+	margin-top: 35px;
+}
+
+.footer-head {
+	position: relative;
+	top: 10px;
+}
+
+.footer-head h2 {
+	font-family: Optima, Perpetua, Times New Roman;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.footer-div {
+	color: whitesmoke;
+	text-align: center;
+	margin-left: 42px;
+	margin-top: 32px;
+}
+
+.footer-div a {
+	font-size: 28px;
+	color: #CCCCCC;
+	text-decoration: none;
+	margin-right: 40px;
+	transition: 0.1s;
+}
+
+.fa:hover {
+	transform: translateY(-6px);
+	color: #F5F5F5;
+}
