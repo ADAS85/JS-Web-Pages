@@ -1,0 +1,64 @@
+button {
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	font-size: 22px;
+	background: rgb(105, 129, 200);
+	background: linear-gradient(305deg, rgba(105, 129, 200, 1) 0%,
+		rgba(178, 98, 177, 1) 100%);
+	border: none;
+	border-radius: 50px;
+	font-family: Times New Roman;
+	font-weight: 600;
+	color: whitesmoke;
+}
+
+button:active {
+	background: rgb(157, 51, 134);
+	background: linear-gradient(204deg, rgba(157, 51, 134, 1) 5%,
+		rgba(49, 43, 108, 1) 99%);
+}
+
+td {
+	padding: 3px;
+}
+
+table {
+	background-color: #F3EEEC;
+	padding: 15px;
+	border-radius: 12px;
+	border: 1px solid #D3D0CF;
+	position: relative;
+	left: 525px;
+}
+
+#outDiv {
+	height: 40px;
+	width: 345px;
+	background-color: #F7F3F2;
+	border: 1px solid #D3D0CF;
+	border-radius: 12px;
+	margin: 60px 0px 20px 0px;
+	position: relative;
+	left: 525px;
+	overflow-x: auto;
+	text-align: center;
+	font-size: 19px;
+	font-family: Times New Roman;
+	letter-spacing: 0.5px;
+	padding-top: 20px;
+}
+
+.action-button {
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 1px;
+	font-style: oblique;
+	color: #5A5757;
+}
