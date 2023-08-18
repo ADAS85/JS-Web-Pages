@@ -1,0 +1,149 @@
+#mainForm {
+	height: 400px;
+	width: 600px;
+	border: 1px solid black;
+	border-radius: 8px;
+	position: relative;
+	top: 50px;
+	left: 395px;
+	font-family: cursive;
+	color: #393737;
+}
+
+input {
+	font-family: cursive;
+}
+
+#formOne {
+	visibility: visible;
+	z-index: 3;
+	height: 400px;
+	width: 600px;
+}
+
+#formTwo {
+	z-index: 2;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 400px;
+	width: 600px;
+}
+
+#formThree {
+	z-index: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 400px;
+	width: 600px;
+}
+
+#formThree {
+	z-index: 1;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 400px;
+	width: 600px;
+}
+
+#formFour {
+	z-index: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 400px;
+	width: 600px;
+}
+
+#buttonLeft {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+}
+
+#buttonRight {
+	position: absolute;
+	right: 10px;
+	top: 200px;
+}
+
+.form-one-fields {
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+}
+
+.form-one-fields input {
+	margin: 0px 10px 40px 40px;
+	height: 30px;
+	width: 35%;
+}
+
+.form-two-fields {
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	letter-spacing: 0.5px;
+}
+
+.form-two-fields input {
+	margin: 0px 10px 40px 40px;
+	height: 30px;
+	width: 35%;
+}
+
+.form-three-fields {
+	position: absolute;
+	top: 100px;
+	left: 220px;
+	letter-spacing: 0.5px;
+	font-weight: light;
+	font-size: 15px;
+}
+
+.form-three-fields input {
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.form-four-fields {
+	position: absolute;
+	top: 90px;
+	left: 180px;
+	letter-spacing: 0.5px;
+	font-weight: light;
+	font-size: 15px;
+}
+
+#submit {
+	position: absolute;
+	top: 300px;
+	left: 180px;
+	padding: 5px 12px;
+	font-family: cursive;
+	color: whitesmoke;
+	background-color: #41896F;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: Cursive;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 22px;
+	color: #5F6160;
+}

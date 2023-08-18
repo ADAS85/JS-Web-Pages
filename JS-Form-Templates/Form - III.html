@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form</title>
+<link href="Form - III.css" rel="stylesheet">
+<script src="Form - III.js"></script>
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+	<h2>Registration &nbsp Form</h2>
+	<div id="mainForm">
+		<div id="formOne">
+		<div class="form-one-fields">
+			<input type="text" placeholder="First Name">
+			<input type="text" placeholder="Last Name"><br> <br> 
+			<input type="email" placeholder="Email Address"> 
+			<input type="text" pattern="[0-9]{10}" placeholder="Phone No."> <br> <br>
+			<input type="text" placeholder="Company"> 
+			<input type="text" placeholder="Department"> 
+		</div>
+			<br> <br> <br> 
+			<span onclick="prevPage()" id="buttonLeft" class="fas fa-angle-left" style="font-size: 35px;"></span>
+			<span onclick="nextPage()" id="buttonRight" class="fas fa-angle-right" style="font-size: 35px;"></span>
+		</div>
+
+		<div id="formTwo">
+		<div class="form-two-fields">
+			<input type="text" placeholder="Street No."> 
+			<input type="text" placeholder="Locality"> <br> <br> 
+			<input type="text" placeholder="City"> 
+			<input type="text" placeholder="Pin Code" pattern="[0-9]{6}"><br> <br>
+			<input type="text" placeholder="Country"> 
+			<input type="text" placeholder="State"> 
+		</div>
+			<br> <br> <br> 
+			<span onclick="prevPage()" id="buttonLeft" class="fas fa-angle-left" style="font-size: 35px;"></span> 
+			<span onclick="nextPage()" id="buttonRight" class="fas fa-angle-right" style="font-size: 35px;"></span>
+		</div>
+
+		<div id="formThree">
+		<div class="form-three-fields">
+			<label>Mention your Gender:</label> <br> <br> <br>
+			<input type="radio" name="gender"> Male <br> <br> 
+			<input type="radio" name="gender"> Female <br> <br> 
+			<input type="radio" name="gender"> Others <br> <br> <br>
+		</div>
+			<span onclick="prevPage()" id="buttonLeft" class="fas fa-angle-left" style="font-size: 35px;"></span> 
+			<span onclick="nextPage()" id="buttonRight" class="fas fa-angle-right" style="font-size: 35px;"></span>
+		</div>
+		
+		<div id="formFour">
+		<div class="form-four-fields">
+			<label>Are you above 18 years old?</label> <br> <br>
+			<span style="margin-right:50px;"><input type="radio" name="age">Yes</span>
+			<span><input type="radio" name="age">No</span> <br> <br> <br>
+			<label>Will you be able to relocate?</label> <br> <br>
+			<span style="margin-right:50px;"><input type="radio" name="relocate">Yes</span>
+			<span><input type="radio" name="relocate">No</span> <br> <br> <br>
+		</div>
+			<button id="submit">Submit</button> <br> <br> <br>
+			<span onclick="prevPage()" id="buttonLeft" class="fas fa-angle-left" style="font-size: 35px;"></span> 
+			<span onclick="nextPage()" id="buttonRight" class="fas fa-angle-right" style="font-size: 35px;"></span>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+#header {
+	background-color: black;
+	height: 60px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 6px;
+}
+
+ul {
+	float: right;
+	font-family: Corbel;
+	font-size: 14px;
+	margin-right: 35px;
+}
+
+#contact {
+	color: #87F068;
+}
+
+a:hover {
+	color: #BDBFBC;
+}
+
+#contact:hover {
+	color: #6D9C5F;
+}
+
+#secDiv {
+	height: 100px;
+	width: 18%;
+	background-color: #80D567;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 1.5px;
+	clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	font-family: Corbel;
+}
+
+#content {
+	padding: 40px 0px 0px 40px;
+	font-family: Bahnschrift;
+}
+
+#mainDiv {
+	margin-top: 40px;
+}
+
+#info {
+	float: left;
+	margin-left: 250px;
+	font-family: Bahnschrift;
+	color: #ADAFAD;
+	font-family: Bahnschrift;
+}
+
+#infoPara {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1 {
+	font-family: arial black;
+	font-size: 40px;
+	color: #323431;
+	line-height: 48px;
+}
+
+#infoDiv {
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+
+#form {
+	float: right;
+	margin-right: 220px;
+}
+
+input {
+	border: none;
+	margin-left: 20px;
+	width: 320px;
+	outline: none;
+	font-size: 15px;
+}
+
+label {
+	margin-left: 8px;
+}
+
+textarea {
+	border: none;
+	height: 60px;
+	outline: none;
+	width: 360px;
+	resize: none;
+	outline: none;
+}
+
+.form-element {
+	font-family: corbel;
+	border-bottom: solid black 2.2px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+#formButton {
+	width: 380px;
+	background-color: #80D567;
+	padding: 15px 10px;
+	border-radius: 35px;
+	color: white;
+	letter-spacing: 1.8px;
+	position: relative;
+	right: 10px;
+}
+
+#icons div {
+	margin-right: 25px;
+	color: black;
+	font-size: 20px;
+}
+
+#formButton:hover {
+	background-color: #4A844A;
+}
+
+img {
+	float: left;
+	margin: 8px 0px 0px 125px;
+}
